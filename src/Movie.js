@@ -8,7 +8,6 @@ class Movie extends Component {
     poster: PropTypes.string
   };
   render() {
-    console.log(this.props);
     return (
       <div>
         <MoviePoster poster={this.props.poster} />
